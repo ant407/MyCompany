@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    tools:context=".InfoActivity">
+    <TextView
+        android:layout_width="wrap_content"
+        android:id="@+id/title_info"
+        android:text="회사소개"
+        android:textSize="32dp"
+        android:textStyle="bold"
+        android:layout_margin="10dp"
+        android:layout_centerHorizontal="true"
+        android:layout_height="wrap_content"/>
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="440dp"
+        android:scaleType="fitXY"
+        android:id="@+id/img_info"
+        android:layout_below="@id/title_info"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/infoimg1"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="10dp"
+        android:id="@+id/txt_info"
+        android:text="클래스룸은 유용합니다"
+        android:layout_below="@id/img_info"
+        android:layout_centerHorizontal="true"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txt_info"
+        android:layout_alignParentEnd="true"
+        android:id="@+id/btn_info_back"
+        android:text="뒤로"/>
+
+</RelativeLayout>
