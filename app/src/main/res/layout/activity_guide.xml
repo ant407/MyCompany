@@ -20,7 +20,7 @@
     </TableRow>
     <TableRow android:padding="10dp">
         <TextView android:text="점심"></TextView>
-        <TextView android:text="AM 09:00 ~ PM 16:20"></TextView>
+        <TextView android:text="AM 12:00 ~ PM 13:00"></TextView>
     </TableRow>
     <TableRow android:padding="10dp">
         <TextView android:text="일,공휴일"></TextView>
